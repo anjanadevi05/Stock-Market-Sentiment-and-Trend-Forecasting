@@ -26,7 +26,7 @@ def fetch_stock_data(ticker, period="6mo", interval="1d", save_csv=True):
     return hist
 
 
-def fetch_news(company, from_date=None, to_date=None, api_key="hfk", save_csv=True):
+def fetch_news(company, from_date=None, to_date=None, api_key="784d6d3a6df94b188296d2d686b62ce3", save_csv=True):
     """
     Fetch financial news using NewsAPI
     :param company: company name or keyword
