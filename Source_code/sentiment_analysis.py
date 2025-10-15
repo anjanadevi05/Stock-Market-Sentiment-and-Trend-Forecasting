@@ -5,7 +5,7 @@ import os
 from huggingface_hub import login
 
 # Login to Hugging Face Hub
-login(token="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")
+login(token="hfk")
 
 # Model & tokenizer initialization
 model_name = "yiyanghkust/finbert-tone"  # FinBERT pretrained for finance
